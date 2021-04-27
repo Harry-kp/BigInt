@@ -358,6 +358,6 @@ class bigInt():
 # print((bigInt('+7')//bigInt('-1')).number, '==', +7//-1)
 # print((bigInt('-7')//bigInt('+1')).number, '==', -7//+1)
 
-# a = bigInt('-1')
-# b = bigInt('-1')
-# print((a+b).number)
+a = bigInt('-1')
+b = bigInt('-1')
+print((a+b).number)
